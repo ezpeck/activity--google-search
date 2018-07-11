@@ -1,0 +1,51 @@
+section {
+  height: 95vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.main_container {
+  display: flex;
+  flex-direction: column;
+}
+
+.search_bar{
+  width: 484px;
+  height: 44px;
+  border: 1px solid rgba(0, 0, 0, 0.16);
+  border-radius: 2px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+input{
+  border: 0;
+  width: 484px;
+  padding: 0 10px;
+}
+
+.microphone{
+  border: 0;
+  width: 56px;
+  font-size: 20px;
+  color: rgba(0, 0, 0, 0.4);
+  background: white;
+}
+
+.buttons-container{
+  display: flex;
+  justify-content: space-around;
+  padding: 0 16px;
+  margin-top: 25px;
+}
+
+.buttons{
+  font-weight: bold;
+  height: 36px;
+  background: #F2F2F2;
+  border: 2px solid #F2F2F2;
+  font-size: 13px;
+  padding: 0 16px;
+}
